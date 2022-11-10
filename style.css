@@ -6,25 +6,82 @@
 
 
 body{
-    background-color: lavender;
+    background-image: linear-gradient(to right,rgb(172, 80, 172), rgb(219, 168, 207), rgb(168, 196, 219)) ;
 }
 
-h1, .main{
+.b1, .b2, .b3{
+    border-top: solid green;
     background-color: white;
-    padding: 10px;
+    border-top-width: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
-/* 
-div{
-    border-color: blue;
+#b1{
+    border-top: solid lightcoral;
+    border-top-width: 20px;
+}
+
+#b2{
+    border-top: solid lightseagreen;
+    border-top-width: 20px;
+}
+
+#b3{
+    border-top: solid purple;
+    border-top-width: 20px;
 }
 
 
+h2{
+    margin-bottom: 30px;
+}
 
-h1{
-    background-color: white;
-    padding: 10px;
+/* .main{
+    display: flex;
+    justify-content: space-evenly;
 } */
 
+.main{
+    display: grid;
+    justify-content: center;
+}
 
-    /* margin-top: 30px; */
+h1{
+    padding: 10px;
+    margin-bottom: 80px;
+
+}
+
+label{
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 218, 173);
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.options button{
+    background-color: rgb(173, 217, 218);
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+input{
+    height: 20px;
+}
+
+footer{
+    margin-top: 80px;
+    font-size: 20px;
+}
+
