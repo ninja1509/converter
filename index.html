@@ -6,34 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-        <h1>
-            Conversion
-        </h1><br>
-        
+
+    <nav>
+        <div id="home">
+          <div class="app_name">
+            Metric Conversions
+          </div>
+          <div class="topdiv">
+            <a class="topmenu" href="#b1">Temperature</a>
+            <a class="topmenu" href="#b2">Weight</a>
+            <a class="topmenu" href="#b3">Distance</a>
+          </div>
+        </div>    
+      </nav>
 
     <div class="main">
-
-        <div>
+        <div class="b b1" id="b1">
             <h2>Temprature</h2>
-            <input type="number" id="celcius"> <label for="Temprature">Celcius</label>
-            <button onclick="temprature()"> Convert </button>
-            <span id="fahrenheit"></span>
+            <label for="Temprature">Celcius</label> <br/> <input type="number"> <br/>
+            <button onclick="temperature()"> Convert </button> <br/>
+            <input type="number">    <br/>  <label for="Temprature">Fahrenheit</label> 
         </div>
 
-        <div>
+        <div class="b b2" id="b2">
             <h2>Weight</h2>
-            <input type="number" id="kilo"> <label for="Weight">KG</label> 
-            <button onclick="weight()"> Convert </button>    
-            <span id="pounds"></span>      
+            <label for="Weight">KG</label> <br/> <input type="number"> <br/>
+            <button onclick="weight()"> Convert </button>  <br/> 
+            <input type="number">  <br/>  <label for="Weight">Pounds</label>    
+            <!-- <span id="pounds"></span>       -->
         </div>
 
-        <div>
+        <div class="b b3" id="b3">
             <h2>Distance</h2>
-            <input type="number" id="km"> <label for="Distance">KM</label>
-            <button onclick="distance()"> Convert </button>
-            <span id="miles"></span>
+            <label for="Distance">KM</label> <br/> <input type="number">  <br/>
+            <button onclick="distance()"> Convert </button> <br/>
+            <input type="number">  <br/>  <label for="Distance">Miles</label>
+            <!-- <span id="miles"></span> -->
         </div>
 
     </div>
+
+    <footer>Learn more about HTML and CSS by clicking<a href="https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript?specialization=ibm-full-stack-cloud-developer">here</a></footer>
 </body>
 </html>
